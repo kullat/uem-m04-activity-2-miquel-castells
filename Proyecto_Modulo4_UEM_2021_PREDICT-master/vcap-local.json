@@ -1,0 +1,48 @@
+{
+  "services": {
+    "cloudantNoSQLDB": [
+      {
+        "name": "uem-m04-activity-2-miquel-castells-db",
+        "label": "cloudantNoSQLDB",
+        "plan": "Shared",
+        "credentials": {
+          "apikey": "W-gZqRqqPzn9vQsUtblEbzjYQW1jOravEenvGrRKTod9",
+          "host": "f38227d3-4070-4e4e-acde-5239d96c3618-bluemix.cloudantnosqldb.appdomain.cloud",
+          "iam_apikey_description": "Auto-generated for key crn:v1:bluemix:public:cloudantnosqldb:eu-gb:a/202a3e9c12a84c4f85564c970cda0b15:364c28bf-ba5e-45aa-a6b9-9c6866516e1e:resource-key:c108ae9a-a2bd-4a6c-861e-a5239b7d5dc7",
+          "iam_apikey_name": "dev-access",
+          "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+          "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/202a3e9c12a84c4f85564c970cda0b15::serviceid:ServiceId-070473b2-43d6-4ed8-aa70-4df222624b7f",
+          "url": "https://f38227d3-4070-4e4e-acde-5239d96c3618-bluemix.cloudantnosqldb.appdomain.cloud",
+          "username": "f38227d3-4070-4e4e-acde-5239d96c3618-bluemix"
+        }
+      }
+    ],
+    "cloud-object-storage": [
+        {
+            "credentials": {
+              "apikey": "I8bH-r9a7CnfOfoGT27MK3yRsZ_7S356y9MP_JSYAKgq",
+              "endpoints": "https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints",
+              "iam_apikey_description": "Auto-generated for key crn:v1:bluemix:public:cloud-object-storage:global:a/202a3e9c12a84c4f85564c970cda0b15:7a1bd815-82cc-4107-9bfe-2ac6f6174e5b:resource-key:6f27c219-da9a-410d-af7f-23f2f32a9755",
+              "iam_apikey_name": "dev-acces",
+              "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+              "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/202a3e9c12a84c4f85564c970cda0b15::serviceid:ServiceId-d9009388-0598-479e-a8a7-1ec33be9458f",
+              "resource_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:a/202a3e9c12a84c4f85564c970cda0b15:7a1bd815-82cc-4107-9bfe-2ac6f6174e5b::"  
+            },
+            "syslog_drain_url": null,
+            "volume_mounts": [],
+            "label": "cloud-object-storage",
+            "provider": null,
+            "plan": "Lite",
+            "name": "uem-m04-activity-2-miquel-castells-cos",
+            "tags": [
+                "Lite",
+                "storage",
+                "ibm_release",
+                "ibm_created",
+                "rc_compatible",
+                "ibmcloud-alias"
+            ]
+        }
+    ]
+  }
+}
